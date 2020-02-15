@@ -1,0 +1,48 @@
+<html>
+
+	<head>
+		<title>
+			サーブレットにデータを送信
+		</title>
+		<meta HTTP-EQUIV="content-type" content="text/html;charset=UTF-8">
+	</head>
+	
+	<body>
+	
+		kokushi1.html
+		<br>
+		<form method="post" action="./servlet/kokushi1">
+		
+		 <center>
+		 	
+		 	<h1>国家試験判定</h1>
+		 	
+		 	<br><br>
+		 	
+		 	お名前:<input name="namae">
+		 	
+		 	学年:<select size=1 name="gakunen">
+		 	　　　 	<option value=1年生>1年生
+		 			<option value=2年生>2年生
+		 			<option value=3年生>3年生
+		 			<option value=4年生>4年生
+		 		 </select>
+		 		 <br><br>
+		 	午前得点:<input type="text" name="gozen" size=3 value="">点
+		 	<br>
+		 	午後得点:<input type="text" name="gogo" size=3 value="">点
+		 	<br><br>
+		 	
+		 	<input type="submit" value="このボタンを押してね">
+		 	<input type="reset" value="入力クリア">
+		 	<br><br>
+		 	
+		 </center>
+		 
+		</form>
+		
+		<hr>
+	
+	</body>
+	
+</html>

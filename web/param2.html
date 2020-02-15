@@ -1,0 +1,40 @@
+<html>
+
+	<head>
+		<meta HTTP-EQUIV="content-type"
+			content="text/html;charset=UTF-8">
+		<title>サーブレットへデータ送信</title>
+	</head>
+	
+	<body BGCOLOR="#FFFFFF">
+		param2.html
+		<br>
+		<form method="post" action="param2.jsp">
+			<center>
+				<h1>サーブレットさん
+				<br>
+				データをJSPさんへ届けてください</h1>
+				<br><br>
+				お名前:<input name="namae"><br><br>
+				性別:
+				<input type="radio" name="seibetsu" value=1>男性
+				<input type="radio" name="seibetsu" value=2>女性
+				<br><br>
+				年齢:
+				<input type="text" name="toshi" size=5 value="">歳
+				<br><br>
+				住所:
+				<select size=1 name="address1">
+				<option value=岐阜県>岐阜県
+				<option value=静岡県>静岡県
+				<option value=愛知県>愛知県
+				</select>
+				<br><br>
+				<input type="submit" value="送信">
+				<input type="reset" value="クリア">
+				<br><br>
+			</center>
+		</form>
+		<hr>
+	</body>
+</html>
